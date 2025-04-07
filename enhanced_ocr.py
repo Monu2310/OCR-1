@@ -427,11 +427,7 @@ def main():
               target_language=args.target_language)
 
 if __name__ == '__main__':
-    # To run in IDE (instead of command line), comment out main() and uncomment the block below:
-    # main()
-    
-    # tess_path = r"C:\Program Files\Tesseract-OCR\tesseract.exe"  # Windows example
-    tess_path = '/opt/homebrew/bin/tesseract'  # MAC example
+    tess_path = '/opt/homebrew/bin/tesseract'  
     view_mode = 1
     source = 0
     crop = [100, 100]
